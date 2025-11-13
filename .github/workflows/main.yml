@@ -1,0 +1,16 @@
+name: Hello, Maah!
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+
+jobs: 
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exibir Hello World
+        run: echo "<p>Rodando testes...</p>"
+     
+      
